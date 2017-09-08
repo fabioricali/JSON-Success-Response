@@ -6,7 +6,7 @@ My JSON API standard response that can be also your.
 </div>
 <br/><br/>
 
- param|type|description
+ Param|Type|Description
  -|-|-
  success|boolean| true if ok, false if error
  code|number| server status code
@@ -14,7 +14,11 @@ My JSON API standard response that can be also your.
  time|string| response time in ISO standard
 
  ### Example
- Response ok
+ #### Response ok
+```
+HTTP/1.1 200 OK
+Content-Type: application/json
+```
 ```json
 {
   "success": true,
@@ -24,7 +28,11 @@ My JSON API standard response that can be also your.
   "time": "2017-08-30T09:59:00.846Z"
 }
 ```
- Response error
+ #### Response error
+```
+HTTP/1.1 401 Unauthorized
+Content-Type: application/json
+```
 ```json
 {
   "success": false,
