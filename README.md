@@ -23,7 +23,7 @@ Content-Type: application/json
 {
   "success": true,
   "code": 200,
-  "message": "ok",
+  "message": "OK",
   "result": 123,
   "time": "2017-08-30T09:59:00.846Z"
 }
