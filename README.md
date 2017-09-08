@@ -4,14 +4,16 @@ My JSON API standard response that can be also your.
 <br/><br/>
 <img src="https://img.shields.io/badge/JSON-Success%20Response-green.svg" title="JSON Success Response"/>
 <a href="https://opensource.org/licenses/MIT" target="_blank"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" title="License: MIT"/></a>
-</div>
+
 <br/><br/>
+
  param|type|description
  -|-|-
  success|boolean| true if ok, false if error
  code|number| server status code
  result|string, number, boolean, array, object, null| response result
  time|string| response time in ISO standard
+ </div>
  
  ### Example
  Response ok
