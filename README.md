@@ -1,4 +1,3 @@
-<div align="center">
 <h1>JSON Success Response</h1>
 My JSON API standard response that can be also your.
 <br/><br/>
@@ -6,7 +5,6 @@ My JSON API standard response that can be also your.
 <a href="https://opensource.org/licenses/MIT" target="_blank"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" title="License: MIT"/></a>
 </div>
 <br/><br/>
-<center>
 
  param|type|description
  -|-|-
@@ -14,7 +12,6 @@ My JSON API standard response that can be also your.
  code|number| server status code
  result|string, number, boolean, array, object, null| response result
  time|string| response time in ISO standard
-</center>
 
  ### Example
  Response ok
