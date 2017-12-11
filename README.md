@@ -10,6 +10,7 @@ My JSON API standard response that can be also your.
  -|-|-
  success|boolean| true if ok, false if error
  code|number| server status code
+ message|string| server message
  result|string, number, boolean, array, object, null| response result
  time|string| response time in ISO standard
 
